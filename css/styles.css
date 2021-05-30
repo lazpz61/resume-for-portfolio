@@ -1,3 +1,55 @@
+/* Hex Value  */
+
+/*
+800000 -  Maroon Web
+BBE5ED - Powder Blue
+FFD4CA - Baby Pink
+9C7CA5 - Purple Mountain Majesty
+5C7AFF - Blue Crayola
+*/
+
+
+/* Global Styless
+ ----------------------------------- */
+ body {
+    color: rgb(29, 0, 0);
+}
+
 img {
     width: 300px;
 }
+
+
+
+
+/* Profile Styless
+ ----------------------------------- */
+header {
+    background: #BBE5ED;
+    color: #800000;
+}
+
+ /* Projects Styless
+ ----------------------------------- */
+.projects {
+    background: #ffdbd3;
+}
+
+
+ /* Work Experience Styless
+ ----------------------------------- */
+.work {
+    background: #65b4f5;
+}
+
+ /* Educcation Styless
+ ----------------------------------- */
+
+
+ /* Contact Styless
+ ----------------------------------- */
+
+ footer {
+     background: #9C7CA5;
+     color: white;
+ }
