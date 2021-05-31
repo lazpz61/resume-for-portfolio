@@ -13,6 +13,8 @@ FFD4CA - Baby Pink
  ----------------------------------- */
  body {
     color: rgb(29, 0, 0);
+    margin: 0;
+    padding: 0;
 }
 
 img {
@@ -24,6 +26,15 @@ a {
 a:hover {
     text-decoration: none;
 }
+h2 {
+    margin: 0;
+}
+.content-wrapper {
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
 
 
 
@@ -50,6 +61,7 @@ header {
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
+    display: inline-block;
 }
 .projects .btn:hover {
     background: rgba(224, 179, 238, 0.8) ;
@@ -61,6 +73,7 @@ header {
  ----------------------------------- */
 .work {
     background: #65b4f5;
+
 }
 
  /* Educcation Styless
