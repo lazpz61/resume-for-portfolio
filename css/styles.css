@@ -1,3 +1,14 @@
+/* Font Families
+
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Vollkorn', serif;
+
+
+
+*/
+
 /* Hex Value  */
 
 /*
@@ -11,10 +22,19 @@ FFD4CA - Baby Pink
 
 /* Global Styless
  ----------------------------------- */
+ html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
  body {
     color: rgb(29, 0, 0);
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
 }
 
 img {
@@ -26,7 +46,17 @@ a {
 a:hover {
     text-decoration: none;
 }
+h1{
+    font-size: 100px;
+    line-height: 1;
+}
+
 h2 {
+    font-size: 35px;
+}
+h1 ,h2 {
+    font-family: 'Vollkorn', serif;
+    font-weight: 400;
     margin: 0;
 }
 .content-wrapper {
@@ -66,7 +96,18 @@ header {
 .projects .btn:hover {
     background: rgba(224, 179, 238, 0.8) ;
 }
-
+.project-item {
+    overflow: hidden;
+    border-bottom: 1px dashed #800000;
+    padding: 25px 0;
+}
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+.project-item h3 {
+    margin-top: 0;
+}
 
 
  /* Work Experience Styless
