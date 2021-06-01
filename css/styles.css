@@ -74,6 +74,7 @@ h1 ,h2 {
 header {
     background: #BBE5ED;
     color: #800000;
+    text-align: center;
 }
 
  /* Projects Styless
@@ -124,7 +125,21 @@ header {
  /* Contact Styless
  ----------------------------------- */
 
+ .contact-list {
+     list-style-type: none;
+     padding: 0;
+     display: flex;
+     justify-content: center;
+ }
+ .contact-list a {
+     padding: 15px;
+     display: inline-block;
+     text-decoration: none;
+     color: #ffdf2a;
+ }
+
  footer {
      background: #5a0272;
      color: white;
+     text-align: center;
  }
