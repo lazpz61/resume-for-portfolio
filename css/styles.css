@@ -60,9 +60,27 @@ h1 ,h2 {
     margin: 0;
 }
 .content-wrapper {
-    width: 800px;
+    max-width: 800px;
+    width:85%;
     margin: 0 auto;
     padding: 60px 0;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+.item-details h3 + p {
+    font-style: italic;
+}
+.item-details h3 ~ p {
+    margin: 0;
+}
+.divider > section {
+    border-bottom: 1px dashed #800000;
+    padding: 25px 0;
+}
+.divider > section:lest-of-type {
+    border-bottom: none;
 }
 
 
@@ -99,8 +117,7 @@ header {
 }
 .project-item {
     overflow: hidden;
-    border-bottom: 1px dashed #800000;
-    padding: 25px 0;
+
 }
 .project-item img {
     float: left;
@@ -117,11 +134,29 @@ header {
     background: #65b4f5;
 
 }
+.job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+}
 
  /* Educcation Styless
  ----------------------------------- */
+.education {
+    background-image: url(../images/thumbnail-2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top-right;
+    padding-bottom: 100px;
+}
+.education-text{
+    color: #800000;
+    font-weight:bolder;
+}
 
-
+.education p {
+    width: 60%;
+}
  /* Contact Styless
  ----------------------------------- */
 
